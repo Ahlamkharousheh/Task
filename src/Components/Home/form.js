@@ -8,15 +8,15 @@ class Form extends React.Component {
                 <form className="container" onSubmit={this.props.handleFormSubmit}>
                     <div className="form-group">
                         <h2 >Title:</h2>
-                        <input type="text" className="form-control" value={this.props.title} onChange={this.props.handleInputChange} placeholder="Enter title" name="title" />
+                        <input type="text" className="form-control" required value={this.props.title} onChange={this.props.handleInputChange} placeholder="Enter title" name="title" />
                     </div>
                     <div className="form-group">
                         <h2 >Caption:</h2>
-                        <input type="text" className="form-control" value={this.props.caption} onChange={this.props.handleInputChange} placeholder="Enter caption" name="caption" />
+                        <input type="text" className="form-control" required value={this.props.caption} onChange={this.props.handleInputChange} placeholder="Enter caption" name="caption" />
                     </div>
                     <div className="form-group">
                         <h2 >Select list:</h2>
-                        <select className="form-control" name="type" value={this.props.type} onChange={this.props.handleInputChange} >
+                        <select className="form-control" name="type" required value={this.props.type} onChange={this.props.handleInputChange} >
                             <option></option>
                             <option >Main</option>
                             <option >Sub</option>
