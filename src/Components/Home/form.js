@@ -24,8 +24,9 @@ class Form extends React.Component {
                         </select>
                     </div>
                     <div className="checkbox" >
-                        <label><input type="checkbox" name="is_active" checked={this.props.is_active} onChange={this.props.handleInputChange} /> Active</label>
+                        <label><input  type="checkbox" name="is_active" checked={this.props.is_active} onChange={this.props.handleInputChange} />Active</label>
                     </div>
+                    
                     <button type="submit" className="btn btn-primary" >ADD</button>
                 </form>
             </div>

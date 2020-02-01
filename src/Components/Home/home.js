@@ -38,7 +38,7 @@ class Home extends Component {
     };
   
     handleInputChange = (event) => {
-        event.preventDefault();
+        //event.preventDefault();
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
@@ -47,7 +47,7 @@ class Home extends Component {
         });
     };
     postDatatoServer = (event) => {
-        postData(`http://demo9606913.mockable.io/save`, this.state)
+        postData(`http://demo9606913.mockable.io/save`, this.state.items)
             .then(data => {
                 console.log("post", JSON.stringify(data));
                  this.setState({ add: "Add Successfully" })
