@@ -1,9 +1,9 @@
 .main {
-    margin: 50px 360px; 
+    margin: 30px 360px; 
     padding: 0px 10px;
     color: #1f1e1e;
     font-family: arial, sans-serif;
-   
+  
   }
 
   table {
@@ -12,7 +12,10 @@
     width: 100%;
     text-align: center;
   }
-  
+  .container{
+    width: 100%;
+    max-width: 100%;
+  }
   td, th {
     border: 1px solid #8d8d8d;
     text-align: center;
