@@ -1,0 +1,29 @@
+.main {
+    margin: 50px 360px; 
+    padding: 0px 10px;
+    color: #1f1e1e;
+    font-family: arial, sans-serif;
+   
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  
+  td, th {
+    border: 1px solid #8d8d8d;
+    text-align: center;
+    padding: 8px;
+  }
+  .save{
+    padding: 6px;
+    margin: 15px;
+  }
+  .add{
+    color: rgb(27, 62, 156); 
+    font-size: 25px; 
+    font-family: "Monotype Corsiva";
+  }
