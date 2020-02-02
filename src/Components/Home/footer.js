@@ -6,7 +6,9 @@ class Footer extends React.Component {
         return (
             <div className="main">
                 <button className="save btn btn-primary" onClick={this.props.postDatatoServer}>SAVE</button>
-                <div className="add">{this.props.add}</div>
+                <div className="add">
+                    {this.props.add}
+                </div>
             </div>
         );
     }
